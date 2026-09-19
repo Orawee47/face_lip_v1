@@ -6,7 +6,7 @@ venv/
 # Dataset
 dataset/
 
-# Model files / checkpoints
+# Model files
 models/
 *.pt
 *.pth
@@ -14,8 +14,8 @@ models/
 *.ckpt
 *.bin
 
-# Generated output
-output/
+# Output
+# ไม่ ignore output เพราะต้องการเก็บขึ้น GitHub
 outputs/
 runs/
 
@@ -29,5 +29,5 @@ __pycache__/
 # Logs
 *.log
 
-# VS Code local settings
+# VS Code
 .vscode/
