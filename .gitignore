@@ -1,0 +1,33 @@
+# Virtual environment
+venv310/
+venv/
+.venv/
+
+# Dataset
+dataset/
+
+# Model files / checkpoints
+models/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+
+# Generated output
+output/
+outputs/
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VS Code local settings
+.vscode/
